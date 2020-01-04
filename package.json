@@ -1,0 +1,52 @@
+{
+  "name": "nextjs-tailwindcss-storybook",
+  "version": "0.3.0",
+  "description": "Starter project using NextJS, TailwindCSS, Storybook, Jest + React Testing Library",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^9.1.6",
+    "@zeit/next-css": "^1.0.1",
+    "cross-env": "^6.0.3",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "serve": "11.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "@testing-library/react": "^9.4.0",
+    "autoprefixer": "^9.6.5",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "cssnano": "^4.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
+    "postcss-easy-import": "^3.0.0",
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.0.1"
+  }
+}

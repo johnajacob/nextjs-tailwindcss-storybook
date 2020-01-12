@@ -1,17 +1,19 @@
-import Link from 'next/link'
-import Nav from '../components/Nav/nav'
+import Head from 'next/head'
 import Card from '../components/Card/card'
+
+// Fake Content Data
+import { items } from '../data/content'
 
 export default function Index() {
   return (
     <div>
-      <Nav />
-      <div className="hero">
-        <h1 className="title">Next.js + Tailwind css</h1>
-        <Link href="/about">
-          <a className="text-center text-red-500">About Page</a>
-        </Link>
-        <Card />
+      <Head>
+        <title>This page has a title 🤔</title>
+        <meta name="Description" content="NextJS Project Home Page" />
+      </Head>
+
+      <div className="flex h-screen justify-center items-center">
+        <Card props={{ ...items }} />
       </div>
     </div>
   )

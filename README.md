@@ -2,16 +2,11 @@
 
 ## Features
 
-### CSS
-- [x] [TailwindCSS](http://tailwindcss.com)
-
-### Debugging and Linting
-- [x] ESlint and Prettier
-
-### Testing
-- [x] [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
 - [x] [Storybook](https://github.com/storybookjs/storybook)
- 
+- [x] [TailwindCSS](http://tailwindcss.com)
+- [x] ESlint and Prettier
+- [x] [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
+
 ## Install it and run:
 
 ```bash

@@ -7,8 +7,7 @@ module.exports = withBundleAnalyzer(
   withCSS({
     exportPathMap() {
       return {
-        '/': { page: '/' },
-        '/about': { page: '/about' }
+        '/': { page: '/' }
       }
     }
   })

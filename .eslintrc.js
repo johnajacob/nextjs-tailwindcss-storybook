@@ -122,7 +122,7 @@ module.exports = {
             {
                 "semi": false,
                 "singleQuote": true,
-                "printWidth": 80,
+                "printWidth": 120,
             }
         ],
         "jsx-a11y/accessible-emoji": 0,

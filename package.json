@@ -1,6 +1,6 @@
 {
   "name": "nextjs-tailwindcss-storybook",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Starter project using NextJS, TailwindCSS, Storybook, Jest + React Testing Library",
   "author": "John Alex Jacob <johnalexjacob@gmail.com>",
   "license": "MIT",

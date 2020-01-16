@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^9.1.6",
-    "@zeit/next-css": "^1.0.1",
     "cross-env": "^6.0.3",
     "isomorphic-unfetch": "^3.0.0",
     "next": "latest",
@@ -51,7 +50,6 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "jest": "^24.9.0",
-    "postcss-easy-import": "^3.0.0",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
     "react-is": "^16.12.0",

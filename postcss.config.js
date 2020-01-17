@@ -10,7 +10,6 @@ module.exports = {
           }
         ]
       : undefined,
-    'autoprefixer',
-    'cssnano'
+    'autoprefixer'
   ]
 }

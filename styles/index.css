@@ -1,7 +1,7 @@
 /* purgecss start ignore */
 @tailwind base;
-/* purgecss end ignore */
 @tailwind components;
+/* purgecss end ignore */
 @tailwind utilities;
 
 html {

@@ -2,10 +2,14 @@
 
 ## Features
 
-- [x] [Storybook](https://github.com/storybookjs/storybook)
-- [x] [TailwindCSS](http://tailwindcss.com)
-- [x] ESlint and Prettier
-- [x] [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
+- [Storybook](https://github.com/storybookjs/storybook)
+- [TailwindCSS](http://tailwindcss.com)
+- ESlint and Prettier
+- [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
+
+## Known issues
+
+- Tailwind `@apply` throws an ESLint error
 
 ## Install it and run:
 

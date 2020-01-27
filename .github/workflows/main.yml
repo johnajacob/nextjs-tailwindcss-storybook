@@ -9,11 +9,9 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls: |
-            https://next-tailwind-storybook-git-$PR_BRANCH.johnjacob.now.sh
+            https://next-tailwind-storybook-git-${GITHUB_REF#refs/heads/}.johnjacob.now.sh
           budgetPath: ./budgets.json
           runs: 3
-        env:
-          PR_BRANCH: ${{GITHUB_REF#refs/heads/}}
       - name: Save results
         uses: actions/upload-artifact@v1
         with:

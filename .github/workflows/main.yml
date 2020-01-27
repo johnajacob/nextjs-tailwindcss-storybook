@@ -12,6 +12,7 @@ jobs:
             next-tailwind-storybook.johnjacob.now.sh
             next-tailwind-storybook-git-$PR_BRANCH.johnjacob.now.sh
           budgetPath: ./budgets.json
+          temporaryPublicStorage: true
           runs: 3
         env:
           PR_BRANCH: ${{ github.event.pull_request.head.ref }}

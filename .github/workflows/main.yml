@@ -13,7 +13,7 @@ jobs:
           budgetPath: ./budgets.json
           runs: 3
         env:
-          PR_BRANCH: ${GITHUB_REF#refs/heads/}
+          PR_BRANCH: ${{GITHUB_REF#refs/heads/}}
       - name: Save results
         uses: actions/upload-artifact@v1
         with:

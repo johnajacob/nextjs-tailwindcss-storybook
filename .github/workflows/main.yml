@@ -7,11 +7,10 @@ jobs:
       - uses: actions/checkout@v1
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v2
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
         with:
           urls: |
-            https://next-tailwind-storybook-git-$PR_NUMBER.johnjacob.now.sh
+            https://next-tailwind-storybook.johnjacob.now.sh
+            https://next-tailwind-storybook-git-test.johnjacob.now.sh
           budgetPath: ./budgets.json
           runs: 3
       - name: Save results

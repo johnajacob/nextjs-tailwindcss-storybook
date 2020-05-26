@@ -18,7 +18,8 @@
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "serve": "11.3.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.0",

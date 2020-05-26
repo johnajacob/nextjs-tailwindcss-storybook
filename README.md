@@ -4,12 +4,12 @@
 
 - [Storybook](https://github.com/storybookjs/storybook)
 - [TailwindCSS](http://tailwindcss.com)
-- ESlint and Prettier
 - [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
+- ESlint and Prettier
 
-## Known issues
+## Known Issues
 
-- Tailwind `@apply` throws an ESLint error
+- Storybook is currently not working. Needs updating. Work in progress
 
 ## Install it and run:
 

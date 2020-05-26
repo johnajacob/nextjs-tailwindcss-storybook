@@ -15,6 +15,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^9.1.6",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "latest",

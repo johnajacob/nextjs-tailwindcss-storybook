@@ -15,12 +15,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^9.1.6",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "latest",
-    "react-dom": "latest",
-    "serve": "11.2.0"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.0",

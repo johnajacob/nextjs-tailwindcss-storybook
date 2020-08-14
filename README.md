@@ -7,10 +7,6 @@
 - [Jest](https://jestjs.io/en/) and [React Testing Library](https://github.com/testing-library/react-testing-library)
 - ESlint and Prettier
 
-## Known Issues
-
-- Storybook is currently not working. Needs updating. Work in progress
-
 ## Install it and run:
 
 ```bash

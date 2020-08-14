@@ -45,10 +45,12 @@
     }
   ],
   "rules": {
+    "import/no-extraneous-dependencies": ["error",  {"devDependencies": true}],
     "react/jsx-filename-extension": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
     "object-curly-newline": "off",
     "semi": [
       "error",
